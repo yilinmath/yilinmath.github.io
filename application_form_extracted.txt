@@ -1,0 +1,368 @@
+  
+Application Forum of Tsinghua Sanya International Mathematics
+（International mathematics conference）
+
+Conference Title
+
+Hochschild (Co)homology in Algebra, Geometry, Topology and Mathematical Physics
+
+Mathematics Subject
+Classification
+
+16E40, (Co) homology of rings and associative algebras (e.g., Hochschild, cyclic, dihedral, etc.)
+16S80, Deformations of associative rings
+13D03, (Co) homology of commutative rings and algebras (e.g., Hochschild, André-Quillen, cyclic, dihedral, etc.)
+13D10,Deformations and infinitesimal methods in commutative ring theory
+14D15, Formal methods and deformations in algebraic geometry
+14J33, Mirror symmetry (algebra-geometric aspects)
+32Gxx, Deformations of analytic structures
+53D37, Symplectic aspects of mirror symmetry, homological mirror symmetry, and Fukaya category
+53D55, Deformation quantization, star products
+58H15, Deformations of general structures on manifolds
+※ International mathematics conference：30-50 participants，the recommended duration of the international conference is 5 days. Normally, each workshop runs from Monday to Friday, 1/3 of the participants are from outside of Chinese Mainland. Young mathematicians are encouraged to attend. Because of international diversity, at least one of the organizers must come from Chinese mainland and at least one from overseas or Hong Kong, Macao and Taiwan. The organizers are from a mathematics-related research unit, or the main organizer is from a mathematics major.
+※ For more information，please click： http://www.tsimf.cn/
+Suggested dates
+2027/01/ 18- 2027/01/22
+Number of participants
+50
+Alternative Dates
+2027/01/ 25- 2027/02/2
+Estimated number of talks
+21 one hour talks +10 ten minutes talks
+Abstract
+
+
+This conference is the seventh of a series of international conferences devoted to Hochschild cohomology with applications in Algebra, Geometry, Topology and Mathematical Physics, previous editions held in BIRS Canada,  CIRM France, Buenos Aires Argentina,  Oberwalfach  Germany etc.  The conference will bring together researchers working on Hochschild cohomology, deformation theory, noncommutative geometry, representation theory, homological mirror symmetry and algebraic topology, fostering interdisciplinary dialogue and collaboration. Emphasis will be placed on recent advances, open problems, and emerging connections to other research fields.
+
+Description of the aim
+
+Hochschild cohomology, initially developed as a tool for associative algebras, has evolved into a versatile and powerful invariant that threads through diverse branches of modern mathematics. Its core lies in measuring the "noncommutative geometry" of an algebra, probing its deformation theory, smoothness, and hidden structure through a homological lens. Originally applied to algebraic deformation problems—where its second group classifies infinitesimal deformations—it became the formal foundation for Kontsevich's deformation quantization, bridging Poisson geometry and quantum algebras.
+In algebraic and noncommutative geometry, the Hochschild–Kostant–Rosenberg theorem establishes a profound link to classical geometry, identifying Hochschild homology of a smooth algebra with its module of differential forms. This connection allows Hochschild theory to serve as a substitute for de Rham noncommutative geometry program. In representation theory, it acts as a derived invariant, distinguishing algebras up to derived equivalence and offering insights through support varieties and connections to Lie theory.
+The most striking applications arise in topology and mathematical physics, particularly through string theory and mirror symmetry. Here, Hochschild cohomology of an appropriate category —such as the Fukaya category of a symplectic manifold—encodes the algebra of open strings, while its counterpart on the mirror side captures closed-string invariants like quantum cohomology. This correspondence lies at the heart of homological mirror symmetry, positioning Hochschild cohomology as a critical bridge between symplectic and algebraic geometry. In topological field theories, it further structures the space of observables and classifies boundary conditions, demonstrating its unifying role across abstract algebra, geometry, and theoretical physics.
+The conference will bring together researchers working on Hochschild cohomology, deformation theory, noncommutative geometry, representation theory, homological mirror symmetry and algebraic topology, fostering interdisciplinary dialogue and collaboration. Emphasis will be placed on recent advances, open problems, and emerging connections to other research fields.
+
+
+OrganizersEnglish Name
+Chinese
+Name
+(If applicable)
+Affiliation
+Title
+E-mail
+Personal WebpageXiao-Wu Chen陈小伍 USTCProfessorxwchen@mail.ustc.edu.cnhttp://home.ustc.edu.cn/~xwchen/Bernhard Keller孔博恩 Université de Paris Cité, FranceProfessor bernhard.keller@imj-prg.frhttps://webusers.imj-prg.fr/~bernhard.keller/indexe.htmlYu Qiu邱  宇 Qinghua UniversityProfessoryu.qiu@bath.eduhttps://www.math.tsinghua.edu.cn/info/1125/1630.htmZhengfang Wang汪正方 Nanjing UniversityProfessorzhengfangw@gmail.comhttps://math.nju.edu.cn/jzyg/apypl/20240416/i264159.htmlGuodong Zhou周国栋East China Normal UniversityProfessor gdzhou@math.ecnu.edu.cnhttps://math.ecnu.edu.cn/~gdzhou/intro.htmlPreliminary list of proposed participants
+
+English Name
+
+Chinese
+Name
+(If applicable)
+
+Affiliation
+
+Title
+
+E-mail
+
+Xiao-Wu Chen
+陈小伍
+ USTC
+Professor
+xwchen@mail.ustc.edu.cn
+ HYPERLINK "https://arxiv.org/search/?searchtype=author&query=Dotsenko,+V" Vladimir Dotsenko
+
+Université de Strasbourg, France
+Professor
+vdotsenko@unistra.fr
+Yang Han
+韩  阳
+ Chinese Academy of Sciences
+Professor
+hany@iss.ac.cn
+Bernhard Keller
+孔博恩
+ Université de Paris Cité, France
+Professor 
+bernhard.keller@imj-prg.fr
+Yu Qiu
+邱  宇
+ Qinghua University
+Professor
+yu.qiu@bath.edu
+Sibylle Schroll
+
+ HYPERLINK "https://www.mi.uni-koeln.de/main/Wissenschaftler-innen/Personen/Lehrkoerper_Mitarbeiter/Mitarbeiter_alphabetisch/Schroll,Sibylle/index.en.php" \t "https://cn.bing.com/_blank" Universität zu Köln, Germany
+Professor
+schroll@math.uni-koeln.de
+Andrea Solotar
+
+Universidad de Buenos Aires, Argentina
+Professor
+asolotar@dm.uba.ar
+Zhengfang Wang
+汪正方
+ Nanjing University
+Professor
+zhengfangw@gmail.com
+Guodong Zhou
+周国栋
+East China Normal University
+Professor 
+gdzhou@math.ecnu.edu.cn
+Pieter Belmans
+
+ HYPERLINK "https://uu.nl/" Utrecht University, The Netherlands
+Assistant Professor 
+ HYPERLINK "mailto:p.belmans@uu.nl" p.belmans@uu.nl
+Petter Andreas Bergh
+
+ HYPERLINK "https://www.ntnu.edu/employees/bergh" \t "https://cn.bing.com/_blank" Norwegian University of Science and Technology, Norway
+Professor
+ HYPERLINK "mailto:petter.bergh@ntnu.no" petter.bergh@ntnu.no
+Matt Booth
+
+I HYPERLINK "https://www.imperial.ac.uk/mathematics/" mperial College London,UK
+Research Fellow
+matt .booth@imperial.ac.uk
+Ricardo Campos
+
+Université Paul Sabatier, France
+Chargé de Recherche 
+ricardo.campos@math.univ-toulouse.fr
+Claude Cibils
+
+Université de Montpellier, France
+Professor
+ HYPERLINK "mailto:Claude.Cibils@umontpellier.fr" Claude.Cibils@umontpellier.fr
+Karin Erdmann
+
+University of Oxford, UK
+Professor
+ HYPERLINK "mailto:erdmann@maths.ox.ac.uk" erdmann@maths.ox.ac.uk
+Gustavo Jasso
+
+ HYPERLINK "https://www.mi.uni-koeln.de/main/Wissenschaftler-innen/Personen/Lehrkoerper_Mitarbeiter/Mitarbeiter_alphabetisch/Schroll,Sibylle/index.en.php" \t "https://cn.bing.com/_blank" Universität zu Köln, Germany
+Professor
+gjasso@math.uni-koeln.de
+Lander Hermans
+
+University of Antwerpen, Belgium
+Postdoc
+Lander.hermans@uantwerpen.be
+Dmitry Kaledin
+
+Steklov Mathematical Institute, Russia
+Professor
+kaledin@mi-ras.ru
+Henning Krause
+
+Universität Bielefeld, Germany
+Professor
+hkrause@math.uni-bielefeld.de
+Eduardo N. Marcos
+
+Universidade de Sao Paulo, Brazil
+Professor
+enmarcos@ime.usp.br
+Arne Mertens
+
+University of Antwerpen, Belgium
+Postdoc
+Arne.mertens@uantwerpen.be
+Alessandro Lehmann
+
+University of Antwerpen, Belgium
+Postdoc
+alessandro.lehmann@uantwerpen.be
+Wendy Lowen
+
+University of Antwerpen, Belgium
+Professor
+Wendy.lowen@uantwerpen.be
+Fernando Muro
+
+Universidad de Sevilla, Spain
+Professor
+ HYPERLINK "mailto:fmuro@us.es" fmuro@us.es
+Pablo Ocal
+
+ HYPERLINK "https://www.math.ubc.ca/" The University of British Columbia, Canada
+Postdoc
+socal@math.ubc.ca
+Julia Pevtsova
+
+University of Washington, USA
+Professor
+ HYPERLINK "mailto:julia math.washington.edu" julia @ math.washington.edu
+Lleonard Rubio y Degrassi
+
+University of Padua, Italy
+Assistant Professor
+ HYPERLINK "mailto:lleonard.rubio_y_degrassi@math.unipd.it" lleonard.rubio_y_degrassi@math.unipd.it
+Greg Stevenson
+
+Aarhus Universitet, Denmark
+Associate Professor
+ HYPERLINK "https://pure.au.dk/portal/en/persons/greg@math.au.dk" greg@math.au.dk
+Travis Schedler
+
+Imperial College London, UK
+Professor
+ HYPERLINK "mailto:t.schedler@imperial.ac.uk" t.schedler@imperial.ac.uk
+Mariano Suarez-Alvarez
+
+Universidad de Buenos Aires, Argentina
+Professor
+ HYPERLINK "mailto:mariano@dm.uba.ar" mariano@dm.uba.ar
+Oeyvind Solberg
+
+ HYPERLINK "https://www.ntnu.edu/employees/bergh" \t "https://cn.bing.com/_blank" Norwegian University of Science and Technology, Norway
+Professor
+ HYPERLINK "mailto:oyvind.solberg@ntnu.no" oyvind.solberg@ntnu.no
+Yu Wang
+王钰
+Taiyuan Normal University
+Lecturer
+dg1621017@smail.nju.edu.cn
+Sarah Witherspoon
+
+Texas A & M University,
+USA
+Professor
+sjw@tamu.edu
+Alexander Zimmermann
+
+Universit´e de Picardie Jules Verne,France
+Professor
+Alexander.Zimmermann@u-picardie.fr
+Paul Balmer
+
+UCLA, USA
+Professor
+ HYPERLINK "mailto:balmer@math.ucla.edu" balmer@math.ucla.edu
+Chris Brav
+
+SIMIS
+Professor
+brav@simis.cn
+Benjamin
+ HYPERLINK "https://mathscinet.ams.org/mathscinet/author?authorId=1281297" Briggs 
+
+Imperial College London, UK
+ Associate Professor
+ HYPERLINK "mailto:b.briggs@imperial.ac.uk" b.briggs@imperial.ac.uk
+Ming Fang
+方  明
+ Chinese Academy of Sciences
+Professor
+fming@amss.ac.cn
+Zhengping Gui
+桂政平
+ SIMIS
+Assistant Professor
+gzp16 @tsinghua.org.cn
+Jiwei He
+何济位
+Hangzhou Normal University
+Professor
+jiweihe@163.com
+Estanislao  HYPERLINK "https://mathscinet.ams.org/mathscinet/author?authorId=794078" Herscovich 
+
+Université Grenoble Alpes, France
+Associate Professor
+Estanislao.Herscovich @univ-grenoble-alpes.fr
+Zheng Hua
+华  诤
+ HYPERLINK "https://hkumath.hku.hk/~huazheng/" \t "https://cn.bing.com/_blank" University of Hong Kong
+Associate Professor
+huazheng@maths.hku.hk
+Tomohiro  HYPERLINK "https://mathscinet.ams.org/mathscinet/author?authorId=1057214" Itagaki 
+
+Takasaki City University of Economics ,Japan
+Associate Professor
+titagaki@tcue.ac.jp
+ HYPERLINK "https://mathscinet.ams.org/mathscinet/author?authorId=616284" Srikanth B.Iyengar
+
+ HYPERLINK "https://www.math.utah.edu/~iyengar/" \t "https://cn.bing.com/_blank" University of Utah,USA
+
+Professor
+ HYPERLINK "mailto:iyengar@math.utah.edu" yengar @math .utah .edu
+ HYPERLINK "https://mathscinet.ams.org/mathscinet/author?authorId=783854" Niels Kowalzig
+
+University of Rome Tor Vergata. Italy
+Associate Professor
+niels.kowalzig@uniroma2.it
+ HYPERLINK "https://mathscinet.ams.org/mathscinet/author?authorId=715326" Ulrich Krähmer
+
+ HYPERLINK "https://tu-dresden.de/mn/math/geometrie/kraehmer/die-professur/holder" \t "https://cn.bing.com/_blank" Technische Universität Dresden,Germany
+Professor
+ulrich.kraehmer@tu-dresden.de
+
+Si Li
+李  思
+Qinghua University
+Professor
+sili@mail.tsinghua.edu.cn
+Yuming Liu
+刘玉明
+Beijing Normal University
+Associate Professor
+ymliu@bnu.edu.cn
+Cris  HYPERLINK "https://mathscinet.ams.org/mathscinet/author?authorId=866113" Negron 
+
+University of Southern California, USA
+Associate Professor
+ HYPERLINK "mailto:cnegron@usc.edu" cnegron@usc.edu
+ HYPERLINK "https://mathscinet.ams.org/mathscinet/author?authorId=317737" María Julia
+Redondo
+
+Universidad Nacional del Sur, Argentina
+Professor
+mredondo@uns.edu.ar
+Junwu Tu
+涂君武
+ShanghaiTech University
+Professor
+ HYPERLINK "http://tujw@shanghaitech.edu.cn/" \t "https://ims.shanghaitech.edu.cn/2018/1110/c4741a35982/_self" tujw@shanghaitech.edu.cn
+ HYPERLINK "https://arxiv.org/search/?searchtype=author&query=Usui,+S" Satoshi Usui
+
+ HYPERLINK "https://www.researchgate.net/institution/Tokyo-University-of-Science?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSJ9fQ" Tokyo Metropolitan College of Industrial Technology, Japan
+Assistant Professor 
+usui@env.sc.niigata-u.ac.jp
+Kai Wang
+王  凯
+USTC
+Associate Researcher
+wangkai17@ustc.edu.cn
+Quan-Shui WU
+吴泉水
+Fudan University
+Professor
+qswu@fudan.edu.cn
+Fei Xu
+徐  斐
+Shantou University
+Professor
+fxu@stu.edu.cn
+Yu Ye
+叶  郁
+USTC
+Professor
+yeyu@ustc.edu.cn
+ HYPERLINK "https://arxiv.org/search/?searchtype=author&query=Yuan,+H" Hang Yuan
+袁  航
+BIMSA
+Assistant Professor
+yuanhang@bimsa.cn
+
+Scientific Comity: Bernhard Keller, Vladimir Dotsenko，Yang Hang,  Sibylle Schroll，Andrea Solotar
+
+
+Local organising Comity: Xiao-Wu Chen, Yu Qiu, Zhengfang Wang, Guodong Zhou
+PAGE  
+
+
+PAGE  1
+
+
+
+
