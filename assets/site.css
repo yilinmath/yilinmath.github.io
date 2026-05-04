@@ -208,10 +208,11 @@ a:hover {
 }
 
 .symbol-four {
-  left: 58%;
-  bottom: 9%;
+  left: auto;
+  right: 8%;
+  bottom: 4%;
   font-size: 1.7rem;
-  color: rgba(255, 255, 255, 0.22);
+  color: rgba(255, 255, 255, 0.14);
 }
 
 .symbol-five {
@@ -230,13 +231,47 @@ a:hover {
   transform: rotate(-3deg);
 }
 
+.symbol-seven {
+  right: 5%;
+  top: 54%;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.09);
+  transform: rotate(-4deg);
+}
+
+.symbol-eight {
+  left: 16%;
+  top: 16%;
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.14);
+  transform: rotate(-7deg);
+}
+
+.symbol-nine {
+  right: 33%;
+  top: 40%;
+  font-size: 2.1rem;
+  color: rgba(255, 255, 255, 0.12);
+  transform: rotate(-5deg);
+}
+
+.symbol-ten {
+  left: 39%;
+  bottom: 21%;
+  font-size: 1.65rem;
+  color: rgba(255, 255, 255, 0.14);
+  transform: rotate(8deg);
+}
+
 .page-hero .symbol-one {
   font-size: 3.15rem;
 }
 
 .page-hero .symbol-two,
 .page-hero .symbol-four,
-.page-hero .symbol-six {
+.page-hero .symbol-six,
+.page-hero .symbol-seven,
+.page-hero .symbol-ten {
   display: none;
 }
 
@@ -250,6 +285,19 @@ a:hover {
 .page-hero .symbol-five {
   bottom: 8%;
   font-size: 1.9rem;
+}
+
+.page-hero .symbol-eight {
+  left: auto;
+  right: 6%;
+  top: 54%;
+  font-size: 1.45rem;
+}
+
+.page-hero .symbol-nine {
+  right: 44%;
+  top: 64%;
+  font-size: 1.45rem;
 }
 
 .math-diagram {
@@ -313,6 +361,70 @@ a:hover {
 .node-d {
   right: 0;
   bottom: 0.6rem;
+}
+
+.operad-tree {
+  position: absolute;
+  right: 18%;
+  top: 9%;
+  width: 12rem;
+  height: 10rem;
+  opacity: 0.23;
+  transform: rotate(8deg);
+}
+
+.operad-tree::before,
+.operad-tree::after {
+  content: "";
+  position: absolute;
+  left: 2.4rem;
+  top: 4.4rem;
+  width: 7.2rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.62);
+  transform-origin: left center;
+}
+
+.operad-tree::before {
+  transform: rotate(28deg);
+}
+
+.operad-tree::after {
+  transform: rotate(-28deg);
+}
+
+.tree-dot {
+  position: absolute;
+  display: grid;
+  width: 2.6rem;
+  height: 2.6rem;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.56);
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.tree-root {
+  left: 4.7rem;
+  top: 0;
+}
+
+.tree-left {
+  left: 0;
+  bottom: 0;
+}
+
+.tree-mid {
+  left: 4.7rem;
+  bottom: 0;
+}
+
+.tree-right {
+  right: 0;
+  bottom: 0;
 }
 
 .hero-content,
@@ -568,6 +680,78 @@ h3 {
   font-weight: 850;
 }
 
+.schedule-board {
+  display: grid;
+  gap: 1.15rem;
+  max-width: 920px;
+}
+
+.schedule-day {
+  padding: 1.05rem 1.2rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 8px 26px rgba(24, 36, 34, 0.06);
+}
+
+.schedule-day h3 {
+  margin: 0 0 0.65rem;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+}
+
+.schedule-list {
+  display: grid;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 7.4rem minmax(0, 1fr);
+  gap: 1.15rem;
+  padding: 0.56rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.schedule-row:first-child {
+  border-top: 0;
+}
+
+.schedule-row time {
+  color: var(--ink);
+  font-size: 0.9rem;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.schedule-detail {
+  min-width: 0;
+}
+
+.schedule-detail p {
+  margin: 0;
+}
+
+.schedule-venue {
+  color: var(--teal);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.schedule-title {
+  color: #164fa3;
+  font-size: 0.98rem;
+  font-weight: 820;
+  line-height: 1.35;
+}
+
+.schedule-note {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
 .people-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -612,10 +796,48 @@ h3 {
   box-shadow: 0 8px 26px rgba(24, 36, 34, 0.06);
 }
 
+.table-status {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.table-status a {
+  color: var(--teal);
+  font-weight: 800;
+}
+
+.table-status.error {
+  color: var(--coral);
+  font-weight: 750;
+}
+
+.table-status.warning {
+  color: #84621a;
+  font-weight: 750;
+}
+
 table {
   width: 100%;
   min-width: 860px;
   border-collapse: collapse;
+}
+
+.participants-table {
+  min-width: 760px;
+  table-layout: fixed;
+}
+
+.participants-table .col-name {
+  width: 28%;
+}
+
+.participants-table .col-chinese {
+  width: 17%;
+}
+
+.participants-table .col-affiliation {
+  width: 55%;
 }
 
 th,
@@ -644,6 +866,31 @@ td {
 
 td strong {
   color: var(--ink);
+}
+
+.participants-table th,
+.participants-table td {
+  padding: 0.78rem 1rem;
+}
+
+.participants-table th:first-child,
+.participants-table td:first-child {
+  padding-left: 1.15rem;
+}
+
+.participants-table th:nth-child(2),
+.participants-table td:nth-child(2) {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.participants-table td {
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.participants-table td:nth-child(2) {
+  white-space: nowrap;
 }
 
 .committee-list {
@@ -718,6 +965,21 @@ td strong {
     top: 35%;
   }
 
+  .operad-tree {
+    right: 4%;
+    top: 8%;
+  }
+
+  .symbol-seven {
+    right: 1rem;
+    font-size: 1rem;
+  }
+
+  .symbol-eight {
+    left: 8%;
+    font-size: 1.35rem;
+  }
+
   h1 {
     font-size: 3.1rem;
   }
@@ -767,9 +1029,13 @@ td strong {
   }
 
   .math-diagram,
+  .operad-tree,
   .symbol-two,
   .symbol-four,
   .symbol-six,
+  .symbol-seven,
+  .symbol-eight,
+  .symbol-ten,
   .page-hero .symbol-three {
     display: none;
   }
@@ -827,5 +1093,23 @@ td strong {
   .contact-band {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .schedule-board {
+    max-width: none;
+  }
+
+  .schedule-day {
+    padding: 0.95rem 1rem;
+  }
+
+  .schedule-row {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    padding: 0.68rem 0;
+  }
+
+  .schedule-row time {
+    font-weight: 800;
   }
 }

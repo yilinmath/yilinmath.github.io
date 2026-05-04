@@ -140,6 +140,77 @@ const programDays = [
   ["2027-01-22", "Friday, Jan 22", "Open problems and collaboration", "Final talks, short presentations, problem sessions and concluding discussion."],
 ];
 
+const programSchedule = [
+  {
+    date: "Mon, 18 Jan 2027",
+    items: [
+      ["08:30 - 09:00", "Registration", "TSIMF Lobby", "Participant check-in"],
+      ["09:00 - 09:15", "Opening", "TSIMF Lecture Hall", "Opening remarks"],
+      ["09:15 - 10:15", "Invited Lecture 1", "TSIMF Lecture Hall", "Hochschild cohomology and deformation theory"],
+      ["10:15 - 10:45", "Tea Break", "Tea Room", ""],
+      ["10:45 - 11:45", "Invited Lecture 2", "TSIMF Lecture Hall", "Derived invariants and noncommutative geometry"],
+      ["12:00 - 14:00", "Lunch Break", "", ""],
+      ["14:00 - 15:00", "Invited Lecture 3", "TSIMF Lecture Hall", "Hochschild methods in algebra and geometry"],
+      ["15:15 - 16:15", "Invited Lecture 4", "TSIMF Lecture Hall", "Open problems and perspectives"],
+      ["16:15 - 16:45", "Tea Break", "Tea Room", ""],
+      ["16:45 - 17:45", "Discussion Session", "Seminar Room", "Foundations and shared questions"],
+    ],
+  },
+  {
+    date: "Tue, 19 Jan 2027",
+    items: [
+      ["09:00 - 10:00", "Invited Lecture 5", "TSIMF Lecture Hall", "Representation theory and derived equivalences"],
+      ["10:00 - 10:30", "Tea Break", "Tea Room", ""],
+      ["10:30 - 11:30", "Invited Lecture 6", "TSIMF Lecture Hall", "Support varieties and homological invariants"],
+      ["11:30 - 12:30", "Invited Lecture 7", "TSIMF Lecture Hall", "Associative algebras and deformation problems"],
+      ["12:30 - 14:30", "Lunch Break", "", ""],
+      ["14:30 - 15:30", "Invited Lecture 8", "TSIMF Lecture Hall", "Triangulated categories and Hochschild theory"],
+      ["15:30 - 16:00", "Tea Break", "Tea Room", ""],
+      ["16:00 - 17:00", "Invited Lecture 9", "TSIMF Lecture Hall", "Noncommutative geometry and algebraic structures"],
+      ["17:00 - 17:40", "Short Communications", "Seminar Room", "Four ten-minute talks"],
+    ],
+  },
+  {
+    date: "Wed, 20 Jan 2027",
+    items: [
+      ["09:00 - 10:00", "Invited Lecture 10", "TSIMF Lecture Hall", "Formal methods in algebraic geometry"],
+      ["10:00 - 10:30", "Tea Break", "Tea Room", ""],
+      ["10:30 - 11:30", "Invited Lecture 11", "TSIMF Lecture Hall", "Deformation quantization and star products"],
+      ["11:30 - 12:30", "Invited Lecture 12", "TSIMF Lecture Hall", "Hochschild-Kostant-Rosenberg phenomena"],
+      ["12:30 - 14:30", "Lunch Break", "", ""],
+      ["14:30 - 15:30", "Invited Lecture 13", "TSIMF Lecture Hall", "Operads, braces and Gerstenhaber structures"],
+      ["15:30 - 16:00", "Tea Break", "Tea Room", ""],
+      ["16:00 - 17:00", "Problem Session", "Seminar Room", "Deformation theory and quantization"],
+    ],
+  },
+  {
+    date: "Thu, 21 Jan 2027",
+    items: [
+      ["09:00 - 10:00", "Invited Lecture 14", "TSIMF Lecture Hall", "Homological mirror symmetry"],
+      ["10:00 - 10:30", "Tea Break", "Tea Room", ""],
+      ["10:30 - 11:30", "Invited Lecture 15", "TSIMF Lecture Hall", "Fukaya categories and Hochschild invariants"],
+      ["11:30 - 12:30", "Invited Lecture 16", "TSIMF Lecture Hall", "Topology, field theory and categorical traces"],
+      ["12:30 - 14:30", "Lunch Break", "", ""],
+      ["14:30 - 15:30", "Invited Lecture 17", "TSIMF Lecture Hall", "Open and closed string structures"],
+      ["15:30 - 16:00", "Tea Break", "Tea Room", ""],
+      ["16:00 - 17:00", "Short Communications", "Seminar Room", "Six ten-minute talks"],
+    ],
+  },
+  {
+    date: "Fri, 22 Jan 2027",
+    items: [
+      ["09:00 - 10:00", "Invited Lecture 18", "TSIMF Lecture Hall", "Emerging links in Hochschild theory"],
+      ["10:00 - 10:30", "Tea Break", "Tea Room", ""],
+      ["10:30 - 11:30", "Invited Lecture 19", "TSIMF Lecture Hall", "Current directions in algebra and geometry"],
+      ["11:30 - 12:30", "Invited Lecture 20", "TSIMF Lecture Hall", "Mathematical physics and categorical structures"],
+      ["12:30 - 14:30", "Lunch Break", "", ""],
+      ["14:30 - 15:30", "Invited Lecture 21", "TSIMF Lecture Hall", "Recent advances and future questions"],
+      ["15:30 - 16:00", "Tea Break", "Tea Room", ""],
+      ["16:00 - 17:00", "Closing Discussion", "Seminar Room", "Open problems, collaboration and concluding remarks"],
+    ],
+  },
+];
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -208,11 +279,21 @@ function layout({ title, description, active, pageTitle, pageIntro, content, hom
       <span class="math-symbol symbol-four">f ★ g = fg + ℏ{f,g}+⋯</span>
       <span class="math-symbol symbol-five">Ext<sub>A<sup>e</sup></sub><sup>*</sup>(A,A)</span>
       <span class="math-symbol symbol-six">HKR: HH<sub>*</sub>(X) ≅ ⊕Ω<sup>p</sup><sub>X</sub>[p]</span>
+      <span class="math-symbol symbol-seven">𝒪(k) ⊗ 𝒪(n<sub>1</sub>)⊗⋯⊗𝒪(n<sub>k</sub>) → 𝒪(Σn<sub>i</sub>)</span>
+      <span class="math-symbol symbol-eight">γ(μ; x<sub>1</sub>,…,x<sub>k</sub>)</span>
+      <span class="math-symbol symbol-nine">E<sub>2</sub> ≃ Ger</span>
+      <span class="math-symbol symbol-ten">x ∘<sub>i</sub> y</span>
       <div class="math-diagram">
         <span class="node node-a">A</span>
         <span class="node node-b">B</span>
         <span class="node node-c">C</span>
         <span class="node node-d">D</span>
+      </div>
+      <div class="operad-tree">
+        <span class="tree-dot tree-root">𝒪</span>
+        <span class="tree-dot tree-left">𝒪</span>
+        <span class="tree-dot tree-mid">𝒪</span>
+        <span class="tree-dot tree-right">𝒪</span>
       </div>
     </div>
     ${heroInner}
@@ -274,6 +355,24 @@ ${programDays.map(([date, label, title, copy]) => `          <article class="pro
         </div>`;
 }
 
+function programScheduleHtml() {
+  return `<div class="schedule-board">
+${programSchedule.map((day) => `          <article class="schedule-day">
+            <h3>${escapeHtml(day.date)}</h3>
+            <div class="schedule-list">
+${day.items.map(([time, label, venue, note]) => `              <div class="schedule-row">
+                <time>${escapeHtml(time)}</time>
+                <div class="schedule-detail">
+                  ${venue ? `<p class="schedule-venue">${escapeHtml(venue)}</p>` : ""}
+                  <p class="schedule-title">${escapeHtml(label)}</p>
+                  ${note ? `<p class="schedule-note">${escapeHtml(note)}</p>` : ""}
+                </div>
+              </div>`).join("\n")}
+            </div>
+          </article>`).join("\n")}
+        </div>`;
+}
+
 function organizerCards() {
   return `<div class="people-grid">
 ${organizers.map((person) => `          <article class="person-card">
@@ -290,21 +389,90 @@ ${organizers.map((person) => `          <article class="person-card">
 }
 
 function participantsTable() {
-  return `<div class="table-wrap">
-          <table>
+  const fallbackRows = participants.map(([name, chinese, affiliation]) => ({
+    Name: name,
+    "Chinese Name": chinese,
+    Affiliation: affiliation,
+  }));
+  const fallbackJson = JSON.stringify(fallbackRows).replace(/</g, "\\u003c");
+
+  return `<div class="table-wrap participants-table-wrap">
+          <table class="participants-table">
+            <colgroup>
+              <col class="col-name">
+              <col class="col-chinese">
+              <col class="col-affiliation">
+            </colgroup>
             <thead>
               <tr>
                 <th>Name</th>
                 <th>Chinese Name</th>
                 <th>Affiliation</th>
-                <th>Title</th>
               </tr>
             </thead>
-            <tbody>
-${participants.map(([name, chinese, affiliation, title]) => `              <tr><td><strong>${escapeHtml(name)}</strong></td><td>${escapeHtml(chinese)}</td><td>${escapeHtml(affiliation)}</td><td>${escapeHtml(title)}</td></tr>`).join("\n")}
+            <tbody id="participants-body">
             </tbody>
           </table>
-        </div>`;
+        </div>
+        <p class="table-status" id="participants-status" hidden></p>
+        <script src="assets/xlsx.full.min.js"></script>
+        <script>
+          (function () {
+            var sourceFile = "participants.xlsx";
+            var tbody = document.getElementById("participants-body");
+            var status = document.getElementById("participants-status");
+            var fallbackRows = ${fallbackJson};
+
+            function cell(value) {
+              return value == null ? "" : String(value);
+            }
+
+            function renderRows(rows) {
+              tbody.innerHTML = "";
+              rows.forEach(function (row) {
+                var tr = document.createElement("tr");
+                var values = [
+                  cell(row.Name),
+                  cell(row["Chinese Name"]),
+                  cell(row.Affiliation),
+                ];
+
+                values.forEach(function (value, index) {
+                  var td = document.createElement("td");
+                  if (index === 0) {
+                    var strong = document.createElement("strong");
+                    strong.textContent = value;
+                    td.appendChild(strong);
+                  } else {
+                    td.textContent = value;
+                  }
+                  tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+              });
+              status.hidden = true;
+              status.textContent = "";
+            }
+
+            fetch(sourceFile)
+              .then(function (response) {
+                if (!response.ok) {
+                  throw new Error("Unable to load " + sourceFile);
+                }
+                return response.arrayBuffer();
+              })
+              .then(function (buffer) {
+                var workbook = XLSX.read(buffer, { type: "array" });
+                var sheet = workbook.Sheets.Participants || workbook.Sheets[workbook.SheetNames[0]];
+                var rows = XLSX.utils.sheet_to_json(sheet, { defval: "" });
+                renderRows(rows);
+              })
+              .catch(function (error) {
+                renderRows(fallbackRows);
+                console.warn(error);
+              });
+          })();
+        </script>`;
 }
 
 const homeContent = [
@@ -375,17 +543,8 @@ const topicsContent = [
 
 const programContent = [
   section({
-    body: `${heading("Program Outline", "Detailed speaker order can be added after confirmation. The structure below follows the five-day workshop format and the talk counts in the application form.")}
-        ${programGrid()}`,
-  }),
-  section({
-    alt: true,
-    body: `<div class="facts">
-          <article class="fact"><span>Long Talks</span><strong>21</strong><p>One-hour research talks.</p></article>
-          <article class="fact"><span>Short Talks</span><strong>10</strong><p>Ten-minute communications.</p></article>
-          <article class="fact"><span>Duration</span><strong>5 days</strong><p>Recommended TSIMF international conference length.</p></article>
-          <article class="fact"><span>Format</span><strong>Workshop</strong><p>Lectures, open problems and collaboration sessions.</p></article>
-        </div>`,
+    body: `${heading("Program Outline", "Detailed speaker order can be added after confirmation. The schedule below follows the five-day workshop format and the proposed talk counts in the application form.")}
+        ${programScheduleHtml()}`,
   }),
 ].join("\n");
 
@@ -715,10 +874,11 @@ a:hover {
 }
 
 .symbol-four {
-  left: 58%;
-  bottom: 9%;
+  left: auto;
+  right: 8%;
+  bottom: 4%;
   font-size: 1.7rem;
-  color: rgba(255, 255, 255, 0.22);
+  color: rgba(255, 255, 255, 0.14);
 }
 
 .symbol-five {
@@ -737,13 +897,47 @@ a:hover {
   transform: rotate(-3deg);
 }
 
+.symbol-seven {
+  right: 5%;
+  top: 54%;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.09);
+  transform: rotate(-4deg);
+}
+
+.symbol-eight {
+  left: 16%;
+  top: 16%;
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.14);
+  transform: rotate(-7deg);
+}
+
+.symbol-nine {
+  right: 33%;
+  top: 40%;
+  font-size: 2.1rem;
+  color: rgba(255, 255, 255, 0.12);
+  transform: rotate(-5deg);
+}
+
+.symbol-ten {
+  left: 39%;
+  bottom: 21%;
+  font-size: 1.65rem;
+  color: rgba(255, 255, 255, 0.14);
+  transform: rotate(8deg);
+}
+
 .page-hero .symbol-one {
   font-size: 3.15rem;
 }
 
 .page-hero .symbol-two,
 .page-hero .symbol-four,
-.page-hero .symbol-six {
+.page-hero .symbol-six,
+.page-hero .symbol-seven,
+.page-hero .symbol-ten {
   display: none;
 }
 
@@ -757,6 +951,19 @@ a:hover {
 .page-hero .symbol-five {
   bottom: 8%;
   font-size: 1.9rem;
+}
+
+.page-hero .symbol-eight {
+  left: auto;
+  right: 6%;
+  top: 54%;
+  font-size: 1.45rem;
+}
+
+.page-hero .symbol-nine {
+  right: 44%;
+  top: 64%;
+  font-size: 1.45rem;
 }
 
 .math-diagram {
@@ -820,6 +1027,70 @@ a:hover {
 .node-d {
   right: 0;
   bottom: 0.6rem;
+}
+
+.operad-tree {
+  position: absolute;
+  right: 18%;
+  top: 9%;
+  width: 12rem;
+  height: 10rem;
+  opacity: 0.23;
+  transform: rotate(8deg);
+}
+
+.operad-tree::before,
+.operad-tree::after {
+  content: "";
+  position: absolute;
+  left: 2.4rem;
+  top: 4.4rem;
+  width: 7.2rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.62);
+  transform-origin: left center;
+}
+
+.operad-tree::before {
+  transform: rotate(28deg);
+}
+
+.operad-tree::after {
+  transform: rotate(-28deg);
+}
+
+.tree-dot {
+  position: absolute;
+  display: grid;
+  width: 2.6rem;
+  height: 2.6rem;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.56);
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.tree-root {
+  left: 4.7rem;
+  top: 0;
+}
+
+.tree-left {
+  left: 0;
+  bottom: 0;
+}
+
+.tree-mid {
+  left: 4.7rem;
+  bottom: 0;
+}
+
+.tree-right {
+  right: 0;
+  bottom: 0;
 }
 
 .hero-content,
@@ -1075,6 +1346,78 @@ h3 {
   font-weight: 850;
 }
 
+.schedule-board {
+  display: grid;
+  gap: 1.15rem;
+  max-width: 920px;
+}
+
+.schedule-day {
+  padding: 1.05rem 1.2rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 8px 26px rgba(24, 36, 34, 0.06);
+}
+
+.schedule-day h3 {
+  margin: 0 0 0.65rem;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+}
+
+.schedule-list {
+  display: grid;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 7.4rem minmax(0, 1fr);
+  gap: 1.15rem;
+  padding: 0.56rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.schedule-row:first-child {
+  border-top: 0;
+}
+
+.schedule-row time {
+  color: var(--ink);
+  font-size: 0.9rem;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.schedule-detail {
+  min-width: 0;
+}
+
+.schedule-detail p {
+  margin: 0;
+}
+
+.schedule-venue {
+  color: var(--teal);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.schedule-title {
+  color: #164fa3;
+  font-size: 0.98rem;
+  font-weight: 820;
+  line-height: 1.35;
+}
+
+.schedule-note {
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
 .people-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -1119,10 +1462,48 @@ h3 {
   box-shadow: 0 8px 26px rgba(24, 36, 34, 0.06);
 }
 
+.table-status {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.table-status a {
+  color: var(--teal);
+  font-weight: 800;
+}
+
+.table-status.error {
+  color: var(--coral);
+  font-weight: 750;
+}
+
+.table-status.warning {
+  color: #84621a;
+  font-weight: 750;
+}
+
 table {
   width: 100%;
   min-width: 860px;
   border-collapse: collapse;
+}
+
+.participants-table {
+  min-width: 760px;
+  table-layout: fixed;
+}
+
+.participants-table .col-name {
+  width: 28%;
+}
+
+.participants-table .col-chinese {
+  width: 17%;
+}
+
+.participants-table .col-affiliation {
+  width: 55%;
 }
 
 th,
@@ -1151,6 +1532,31 @@ td {
 
 td strong {
   color: var(--ink);
+}
+
+.participants-table th,
+.participants-table td {
+  padding: 0.78rem 1rem;
+}
+
+.participants-table th:first-child,
+.participants-table td:first-child {
+  padding-left: 1.15rem;
+}
+
+.participants-table th:nth-child(2),
+.participants-table td:nth-child(2) {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.participants-table td {
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.participants-table td:nth-child(2) {
+  white-space: nowrap;
 }
 
 .committee-list {
@@ -1225,6 +1631,21 @@ td strong {
     top: 35%;
   }
 
+  .operad-tree {
+    right: 4%;
+    top: 8%;
+  }
+
+  .symbol-seven {
+    right: 1rem;
+    font-size: 1rem;
+  }
+
+  .symbol-eight {
+    left: 8%;
+    font-size: 1.35rem;
+  }
+
   h1 {
     font-size: 3.1rem;
   }
@@ -1274,9 +1695,13 @@ td strong {
   }
 
   .math-diagram,
+  .operad-tree,
   .symbol-two,
   .symbol-four,
   .symbol-six,
+  .symbol-seven,
+  .symbol-eight,
+  .symbol-ten,
   .page-hero .symbol-three {
     display: none;
   }
@@ -1334,6 +1759,24 @@ td strong {
   .contact-band {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .schedule-board {
+    max-width: none;
+  }
+
+  .schedule-day {
+    padding: 0.95rem 1rem;
+  }
+
+  .schedule-row {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    padding: 0.68rem 0;
+  }
+
+  .schedule-row time {
+    font-weight: 800;
   }
 }
 `;
